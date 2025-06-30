@@ -25,7 +25,6 @@ public class BasePage {
     }
 
     public static void delay(int milliseconds) {
-        // Demo Purpose
         try {
             Thread.sleep(milliseconds);
         } catch(InterruptedException exc) {
